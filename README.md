@@ -3,7 +3,9 @@ Cliente de Apache Tika para Laravel
 
 Instalar Java
 -
+```ssh
 sudo apt-get -y install openjdk-7-jdk
+```
 
 Incluir en composer.json
 -
