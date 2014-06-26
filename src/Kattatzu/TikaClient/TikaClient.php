@@ -15,7 +15,6 @@ class TikaClient
     const OUTPUT_EXTRACT_DIR   = 'extract-dir';
     const OUTPUT_PRETTY_PRINT  = 'pretty-print';
 
-
     /**
      * Tika jar file or url to server
      *
