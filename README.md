@@ -64,7 +64,7 @@ Si prefieres, puedes usar TikaWrapper para encapsular todas las operaciones del 
 ```php
     use Kattatzu\TikaClient\TikaWrapper;
     
-    $wrapper = new TikaWrapper('file.doc', $client);
+    $wrapper = new TikaWrapper('file.doc', $tika);
 
     // Get text
     $text = $wrapper->getText();
