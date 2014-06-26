@@ -1,0 +1,24 @@
+{
+    "name": "kattatzu/tika-client",
+    "description": "",
+    "authors": [
+        {
+            "name": "José Eduardo Ríos",
+            "email": "kattatzu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "symfony/process": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Kattatzu\\TikaClient\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
