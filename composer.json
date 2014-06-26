@@ -13,9 +13,6 @@
         "symfony/process": "2.5.*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Kattatzu\\TikaClient\\": "src/"
         }
