@@ -62,6 +62,8 @@ Modo de uso (sacado de la documentación original)
 Si prefieres, puedes usar TikaWrapper para encapsular todas las operaciones del mismo archivo, ejemplo:
 
 ```php
+    use Kattatzu\TikaClient\TikaWrapper;
+    
     $wrapper = new TikaWrapper('file.doc', $client);
 
     // Get text
