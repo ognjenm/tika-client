@@ -1,6 +1,6 @@
 Cliente de Apache Tika para Laravel
 ===================
-Este es un form al proyecto https://github.com/marcelomx/tika-client al cual se le agrego un ServiceProvider para ser instalado en Laravel 4. Espero les sirva, a mi mucho, xD
+Este es un fork al proyecto https://github.com/marcelomx/tika-client al cual se le agrego un ServiceProvider para ser instalado en Laravel 4. Espero les sirva, a mi mucho, xD
 
 Instalar Java
 -
