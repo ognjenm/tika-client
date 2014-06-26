@@ -7,9 +7,11 @@ sudo apt-get -y install openjdk-7-jdk
 
 Incluir en composer.json
 -
+```json
 "require": {
 	"kattatzu/tika-client": "1.*"
 },
+```
 
 Agregar en app/config/app.php
 -
