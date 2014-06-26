@@ -35,8 +35,8 @@ y
 Modo de uso (sacado de la documentación original)
 -
 
-Usage:
 ```php
+    // se obtiene una instancia de la clase (más adelante implementare Facades)
     $tika = new TikaClient();
 
     // Obtener el texto plano de un documento
