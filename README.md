@@ -1,14 +1,14 @@
-Cliente de Apache Tika para Laravel
+Apache Tika client for Laravel 4
 ===================
 Este es un fork al proyecto https://github.com/marcelomx/tika-client al cual se le agrego un ServiceProvider para ser instalado en Laravel 4. Espero les sirva, a mi mucho, xD
 
-Instalar Java
+Install Java
 -
 ```ssh
 sudo apt-get -y install openjdk-7-jdk
 ```
 
-Incluir en composer.json
+Include in composer.json
 -
 ```json
 "require": {
@@ -16,7 +16,7 @@ Incluir en composer.json
 },
 ```
 
-Agregar en app/config/app.php
+Add service provider in app/config/app.php
 -
 ```php
 'providers' => array(
@@ -32,7 +32,7 @@ y
 ),
 ```
 
-Modo de uso (sacado de la documentación original)
+Use examples (taken from original documentation)
 -
 
 ```php
